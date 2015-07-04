@@ -1,0 +1,9 @@
+#splash-options-tabs li:hover{
+	cursor: pointer;
+}
+#login-form{
+	display: inline-block;
+}
+#register-form{
+	display: none;
+}

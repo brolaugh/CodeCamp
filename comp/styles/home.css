@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: rgb(40,40,40);
+	color: white;
+}
+#main-wrapper{
+	margin: auto 30px; 
+}
+header{
+	height: 200px;
+	width: 100%;
+}
+
+#nav-left-part{
+	float: left;
+}
+#nav-right-part{
+	float: right;
+}
+.nav-object{
+	display: inline-block;
+	height: 35px;
+	line-height: 200%;
+	width: 100px;
+	background-color: rgb(50,50,50);
+	margin: auto 30px;
+	text-align: center;
+}
+aside{
+	float:left;
+}
+main{
+	float: left;
+	width: calc(100% - 350px);
+	height: calc(100% - 200px);
+	background-color: rgb(52, 73, 94);
+	display: inline-block;
+}
+#profile{
+	float: left;
+	width: 350px;
+}
+#profile img{
+	max-width: 100px;
+	max-height: 100px;
+	float: left;
+}
+#profileInfo{
+	float: left;
+}

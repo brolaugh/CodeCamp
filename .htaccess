@@ -1,0 +1,8 @@
+DirectoryIndex index.php
+
+#Turn Rewrite Engine On
+RewriteEngine on
+
+
+RewriteRule ^contact contact.php [NC,L]
+RewriteRule ^signup signup.php [NC,L]
