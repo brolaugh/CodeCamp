@@ -3,7 +3,7 @@
 <head>
 
 <?php
-	ini_set('display_errors', 1); 
+	ini_set('display_errors', 1);
 	error_reporting(E_ALL);
 	//If the user is logged in you get redirected to the home page
 	require_once('classes/login.class.php');
@@ -22,7 +22,6 @@
 <body onload="init();">
 	<?php
 	//For a 100vh*100vw non moving background
-	require_once('templates/main-background.php');
 	require_once('templates/main-splash.php');
 	require_once('templates/main-footer.php');
 

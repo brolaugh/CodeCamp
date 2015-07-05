@@ -1,9 +1,13 @@
-#splash-options-tabs li:hover{
-	cursor: pointer;
+#splash li{
+	display: inline-block;
+	float:left;
+}
+#splash ul{
+	float: block;
+}
+.form-horizontal{
+	display: block;
 }
 #login-form{
 	display: inline-block;
-}
-#register-form{
-	display: none;
 }
