@@ -1,67 +1,7 @@
-*{
-	font-family: 'Raleway', "Times New Roman", Times, serif;
-	padding:0;
-	margin: 0;
+/*.menu-item{
+  display: inline-block;
 }
-body{
-	background-color: rgb(40,40,40);
-}
-#outer-wrapper{
-	text-align: center;
-	margin: auto;
-}
-#inner-wrapper{
-	width: 1000px;
-	margin: 0 auto;
-}
-header{
-	background-image: url('old/wii.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 1000px;
-	height: 200px;
-	margin: 0 auto;
-}
-nav{
-	background-color: rgb(149, 165, 166);
-	width: 1000px;
-	margin: 0 auto;
-}
-nav li{
-	width: 100px;
-	height: 40px;
-	text-align: center;
-	display: inline-block;
-	background-color: rgb(40,40,40);
-	border-color: rgb(50,50,50);
-	color: rgb(198,198,197);
-	border-color:#232323;
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 0px;
-	transition:background-color 0.25s;
-}
-nav li:hover{
-	background-color: rgb(60,60,60);
-}
-main{
-	display: block;
-}
-article{
-	height: 300px;
-	width: 300px;
-	background-color: rgb(142, 68, 173);
-	display: inline-block;
-	float: left;
-	margin: 10px;
-	padding: 5px;
-	background-image: url('old/windows_wallpaper.gif');
-	background-position: center;
-	background-size: cover;
-}
-footer{
-	display: block;
-	position: absolute;
-	bottom: 0;
+.menu-bar{
+  display:block;
+  background-color:
 }

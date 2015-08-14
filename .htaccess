@@ -1,8 +1,11 @@
-DirectoryIndex index.php
+DirectoryIndex news.php
 
 #Turn Rewrite Engine On
 RewriteEngine on
 
-
+RewriteRule ^index news.php [NC,L]
 RewriteRule ^contact contact.php [NC,L]
-RewriteRule ^signup signup.php [NC,L]
+RewriteRule ^tickets tickets.php [NC,L]
+RewriteRule ^info info.php [NC,L]
+RewriteRule ^partners partners.php [NC,L]
+RewriteRule ^news news.php [NC,L]
