@@ -7,7 +7,7 @@
 			 	<div class="row">
 					<div class="col-md-8">
 						<h2><?php echo TICKETS_HEADER; ?></h2>
-            <p>It's accually free to atend Codecamp! But in order to join the competition you need to sign up before the start of the event.</p>
+            <p>It's accually free to attend Codecamp! But in order to join the competition you need to sign up before the start of the event.</p>
             <form action="tickets.php" method="post">
               <div class="form-group">
               <label for="fname" class="col-lg-3 control-label"><?php echo FORM_LABEL_FIRSTNAME; ?></label>

@@ -9,7 +9,7 @@ define("HEADER_PARAGRAPH", "The geek gateway");
 //Nav
 define("NAV_HOME_TEXT", "Home");
 define("NAV_INFO_TEXT", "Info");
-define("NAV_SIGNUP_TEXT", "Sign up");
+define("NAV_SIGNUP_TEXT", "Tickets");
 define("NAV_NEWS_TEXT", "News");
 define("NAV_PARTNER_TEXT", "Partners");
 
@@ -28,6 +28,16 @@ define("FORM_LABEL_EMAIL", "Email");
 define("FORM_LABEL_ONLINE_NICK", "Online nick");
 define("FORM_LABEL_TEAM_NAME", "Team name");
 
+
+//Info
+define("NAME", "Name");
+define("EMAIL", "Email");
+define("PHONE_NR", "Cell nr");
+define("ROLE", "Role");
+define("CEO", "CEO");
+define("FOUNDER", "Founder");
+define("TEACHER", "Teacher");
+define("JUDGE", "Judge");
 //Partner
 define("PARTNER_HEADER", "Partners");
 
