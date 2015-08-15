@@ -7,7 +7,7 @@
 	 ?>
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<script type="text/javascript" src="index.js"></script>
-	<title><?php echo EVENTNAME." - Startsidan";?></title>
+	<title><?php echo EVENTNAME." - ".SUBPAGE;?></title>
 </head>
 <body onload="$.material.init();">
 	<div class="container">

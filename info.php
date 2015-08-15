@@ -1,5 +1,6 @@
   <?php
-    include_once("templates/main-header.php");
+  define("SUBPAGE", "Info");
+  include_once("templates/main-header.php");
    ?>
 		 <main class="row">
 			 <div class="col-md-10">
@@ -35,7 +36,7 @@
             </ul>
           </div>
 				</div>
-        
+
         <div class="row">
 					<div class="col-md-12">
                 <h2>Lorem ipsum</h2>

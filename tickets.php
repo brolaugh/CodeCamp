@@ -1,4 +1,5 @@
 <?php
+	define("SUBPAGE", "Tickets");
 	include_once("templates/main-header.php");
   include_once("functions/signup.php");
  ?>
