@@ -2,7 +2,7 @@
 <html>
 <head>
 	<?php
-	 	include("lang/en.php");
+	 	include("lang/sv.php");
 		include("templates/main-head.php");
 	 ?>
 	<link rel="stylesheet" type="text/css" href="index.css">
