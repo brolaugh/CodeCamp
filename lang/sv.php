@@ -39,7 +39,6 @@ define("CEO", "VD");
 define("FOUNDER", "Skapare");
 define("TEACHER", "Lärare");
 define("JUDGE", "Domare");
-define("");
 
 //Footer
 define("COPYRIGHT", "Copyright &copy; 2015 Hannes Kindströmmer");
