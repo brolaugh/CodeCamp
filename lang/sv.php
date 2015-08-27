@@ -12,6 +12,8 @@ define("NAV_INFO_TEXT", "Info");
 define("NAV_SIGNUP_TEXT", "Anmälan");
 define("NAV_NEWS_TEXT", "Nyheter");
 define("NAV_PARTNER_TEXT", "Partners");
+define("NAV_LOGIN_TEXT", "Logga in");
+define("NAV_REGISTER_TEXT", "Registera");
 //Partners
 define("PARTNER_HEADER", "Partners");
 

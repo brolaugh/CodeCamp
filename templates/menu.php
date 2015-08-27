@@ -8,19 +8,19 @@
       <li><a href="partners"><?php echo NAV_PARTNER_TEXT;?></a></li>
     </ul>
     <?php
-      if($login->isLoggedIn()){
+      if(false){
         ?>
-        <ul class="nav navbar-nav">
-          <li><a href="profile"><?php echo ACCOUNT; ?></a></li>
-          <li><a href="team"><?php echo TEAM; ?></a></li>
-          <li><a href="feed"><?php echo FEED; ?><a/></li>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="profile"><?php echo NAV_ACCOUNT_TEXT; ?></a></li>
+          <li><a href="team"><?php echo NAV_TEAM_TEXT; ?></a></li>
+          <li><a href="feed"><?php echo NAV_FEED_TEXT; ?><a/></li>
         </ul>
         <?php
       }
       else{
         ?>
-        <ul class="nav navbar-nav">
-          <li><a href="login"><?php echo LOGIN."/".REGISTER; ?></a></li>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="disabled"><a href=""><?php echo NAV_LOGIN_TEXT."/".NAV_REGISTER_TEXT; ?></a></li>
         </ul>
         <?php
       }

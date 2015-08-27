@@ -12,7 +12,8 @@ define("NAV_INFO_TEXT", "Info");
 define("NAV_SIGNUP_TEXT", "Tickets");
 define("NAV_NEWS_TEXT", "News");
 define("NAV_PARTNER_TEXT", "Partners");
-
+define("NAV_LOGIN_TEXT", "Login");
+define("NAV_REGISTER_TEXT", "Register");
 //
 define("TICKETS_HEADER", "Tickets");
 //forms
