@@ -1,26 +1,8 @@
-DirectoryIndex news.php
+Options All -Indexes
+DirectoryIndex index.php
 
-#Turn Rewrite Engine On
-RewriteEngine on
-
-RewriteRule ^index news.php [NC,L]
-RewriteRule ^contact contact.php [NC,L]
-RewriteRule ^tickets tickets.php [NC,L]
-RewriteRule ^info info.php [NC,L]
-RewriteRule ^partners partners.php [NC,L]
-RewriteRule ^news news.php [NC,L]
-
-
-# account section
-
-#.com/user/brolaugh = .com/user.php?u=brolaugh
-RewriteRule ^user/([0-9a-zA-Z_-]+) user.php?u=$1 [NC,L]
-
-
-#.com/project/superdeathrocker = .com/project.php?p=superdeathrocker
-RewriteRule ^project/([0-9a-zA-Z_-]+) project.php?p=$1 [NC,L]
-
-RewriteRule ^register register.php [NC,L]
-RewriteRule ^login login.php [NC,L]
-RewriteRule ^forgot_password forgot_password.php [NC,L]
-RewriteRule ^forgot-password forgot_password.php [NC,L]
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([a-zA-Z0-9]+)$ index.php?p=$1
+RewriteRule ^(.*)$ index.php?p=$1 [L]
